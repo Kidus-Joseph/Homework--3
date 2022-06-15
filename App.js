@@ -4,8 +4,8 @@ import {NavigationContainer} from '@react-navigation/native';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Home from './screens/Home';
-import Message from './screens/Message';
+import Home from './screens/Home/index.jsx';
+import Message from './screens/Message/index.jsx';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
